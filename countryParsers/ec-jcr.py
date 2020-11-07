@@ -1,7 +1,7 @@
 import csv, urllib.request
 from datetime import datetime
 
-countries = ["Albania", "Austria", "Belgium", "Denmark", "France", "Hungary", "Italy", "Ireland", "Netherlands",
+countries = ["Albania", "Austria", "Belgium", "Denmark", "France", "Hungary", "Italy", "Ireland",
              "Portugal", "Slovakia", "Slovenia", "Switzerland"]
 
 countryList = {}
