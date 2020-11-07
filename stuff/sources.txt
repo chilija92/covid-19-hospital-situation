@@ -1,0 +1,26 @@
+Austria: https://covid19-dashboard.ages.at/dashboard_Hosp.html
+Deutschland: https://www.intensivregister.de/#/intensivregister
+Portugal: https://covid19.min-saude.pt/ponto-de-situacao-atual-em-portugal/
+Spanien: https://cnecovid.isciii.es/covid19/#documentaci%C3%B3n-y-datos, https://www.mscbs.gob.es/profesionales/portada/home.htm
+Frankreich https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/
+Belgien
+Luxembourg
+Niederlande
+UK
+Irland
+Schweden
+Norwegen
+Finnland
+Denmark
+Schweiz
+Italien
+Tschechien
+Polen
+Estland
+Litauen
+Lettland
+Ungarn
+Kroatien: https://www.hzjz.hr/aktualnosti/covid-19-izvjesce-hzjz-a/
+Griechenland
+Bulgarien
+Rumänien
