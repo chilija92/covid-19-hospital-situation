@@ -2,13 +2,13 @@ import csv
 import urllib.request
 
 def import_csv(csvfilename):
-    data = []
+    data = {}
     with open(csvfilename, "r", encoding="utf-8", errors="ignore") as scraped:
         reader = csv.reader(scraped, delimiter=',')
         for i, row in enumerate(reader):
             if row:  # avoid blank lines
                 if i > 0:
-                    data.append(row)
+                    data[row[0]] = row
     return data
 
 def filterCountry(country):

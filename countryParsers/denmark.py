@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 def initDenmark():
-    data = helper.filterCountry("Denmark")
+    data = helper.import_csv(".\Data\Denmark.csv")
     return data
 
 
@@ -25,15 +25,15 @@ def getNewest():
                               ventilatorRows[i].findAll("td")[1].get_text().strip()]
     return dataDict
 
-
-data = initDenmark()
-dataNew = getNewest()
-with open("..\Data\Denmark.csv", 'w', newline='') as myfile:
-    wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
-    wr.writerow(["date", "hospital", "icu", "ventilator"])
-    for date, entry in data.items():
-        if date not in dataNew:
+def getDenmark():
+    data = initDenmark()
+    dataNew = getNewest()
+    with open(".\Data\Denmark.csv", 'w', newline='') as myfile:
+        wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
+        wr.writerow(["date", "hospital", "icu", "ventilator"])
+        for date, entry in data.items():
+            if date not in dataNew:
+                wr.writerow(entry)
+        for date, entry in dataNew.items():
             wr.writerow(entry)
-    for date, entry in dataNew.items():
-        wr.writerow(entry)
 
