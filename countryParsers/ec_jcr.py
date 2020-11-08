@@ -1,6 +1,6 @@
 import csv, urllib.request
 
-countries = ["Albania", "Austria", "Belgium", "Denmark", "France", "Hungary", "Italy", "Ireland",
+countries = ["Albania", "Austria", "Belgium", "France", "Hungary", "Italy", "Ireland",
              "Portugal", "Slovakia", "Slovenia", "Switzerland"]
 
 def getEC_JCR():

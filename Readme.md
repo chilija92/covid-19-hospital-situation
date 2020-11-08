@@ -85,7 +85,7 @@ Source: https://coronavirus.data.gov.uk/details/developers-guide
 Data available: Number of patients in hospitals, in ICU and on ventilator  
 Source: https://covidtracking.com/data/api
 
-**Albania, Austria, Belgium, Denmark, France, Hungary, Italy, Ireland,
+**Albania, Austria, Belgium, France, Hungary, Italy, Ireland,
              Portugal, Slovakia, Slovenia, Switzerland**
              
 Data available: Number of patients in hospitals, in ICU  

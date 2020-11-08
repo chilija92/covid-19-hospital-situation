@@ -6,6 +6,7 @@ from datetime import datetime
 
 def initDenmark():
     data = helper.import_csv(".\Data\Denmark.csv")
+    #data = helper.filterCountry("Denmark")
     return data
 
 
@@ -32,7 +33,7 @@ def getDenmark():
         wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
         wr.writerow(["date", "hospital", "icu", "ventilator"])
         for date, entry in data.items():
-            if date not in dataNew:
+            if date not in dataNew.keys():
                 wr.writerow(entry)
         for date, entry in dataNew.items():
             wr.writerow(entry)
