@@ -88,7 +88,7 @@ Source: https://covidtracking.com/data/api
 
 **Japan**
 
-Data available: Number of patients in hospitals, in ICU (listed as severly ill)
+Data available: Number of patients in hospitals, in ICU (listed as severly ill)  
 Source: https://www.mhlw.go.jp/stf/covid-19/open-data.html
 
 **Albania, Austria, Belgium, France, Hungary, Italy, Ireland,
