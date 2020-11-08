@@ -82,6 +82,7 @@ Data available: Number of patients in hospitals and on ventilator
 Source: https://coronavirus.data.gov.uk/details/developers-guide
 
 **USA**
+
 Data available: Number of patients in hospitals, in ICU and on ventilator  
 Source: https://covidtracking.com/data/api
 
