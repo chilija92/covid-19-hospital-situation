@@ -9,7 +9,7 @@ def import_csv(csvfilename):
         for row in reader:
             if row:  # avoid blank lines
                 if row[0] != "date":
-                    columns = [row[0], row[1], None, row[3]]
+                    columns = [row[0], None, row[2], row[3]]
                     data.append(columns)
     return data
 
@@ -40,7 +40,7 @@ def getGermany():
     tNeu = datetime.strptime(tNeu.strftime('%Y-%m-%d'), '%Y-%m-%d')
     if tAlt.date() == tNeu.date():
         last_row[0] = tNeu.date()
-        last_row[1] = gesamt
+        last_row[2] = gesamt
         last_row[3] = beatmet
     elif tAlt.date() < tNeu.date():
         data.append([tNeu.date(), gesamt, None, beatmet])

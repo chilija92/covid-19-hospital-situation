@@ -8,7 +8,7 @@ Currently the following countries are available:
 
 **Germany**
 
-Data available: Number of patients in hospitals and on ventilator  
+Data available: Number of patients in ICU and on ventilator  
 Source: https://www.intensivregister.de/#/intensivregister
 
 **Australia**
