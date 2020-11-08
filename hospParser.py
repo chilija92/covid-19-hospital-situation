@@ -1,5 +1,6 @@
 from countryParsers import *
 
+getJapan()
 getDenmark()
 getAustralia()
 getBulgaria()

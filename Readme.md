@@ -86,6 +86,11 @@ Source: https://coronavirus.data.gov.uk/details/developers-guide
 Data available: Number of patients in hospitals, in ICU and on ventilator  
 Source: https://covidtracking.com/data/api
 
+**Japan**
+
+Data available: Number of patients in hospitals, in ICU (listed as severly ill)
+Source: https://www.mhlw.go.jp/stf/covid-19/open-data.html
+
 **Albania, Austria, Belgium, France, Hungary, Italy, Ireland,
              Portugal, Slovakia, Slovenia, Switzerland**
              

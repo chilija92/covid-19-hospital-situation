@@ -18,5 +18,6 @@ from countryParsers.poland import *
 from countryParsers.uk import *
 from countryParsers.usa import *
 from countryParsers.sweden import *
+from countryParsers.japan import *
 
 
