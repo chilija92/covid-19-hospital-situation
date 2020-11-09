@@ -43,7 +43,7 @@ def getGermany():
         last_row[2] = gesamt
         last_row[3] = beatmet
     elif tAlt.date() < tNeu.date():
-        data.append([tNeu.date(), gesamt, None, beatmet])
+        data.append([tNeu.date(), None, gesamt, beatmet])
 
     with open(".\Data\Germany.csv", 'w', newline='') as myfile:
         wr = csv.writer(myfile, quoting=csv.QUOTE_NONE)
