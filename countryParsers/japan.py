@@ -1,4 +1,5 @@
 import urllib.request, csv
+from datetime import datetime
 
 def getJapan():
     url = 'https://www.mhlw.go.jp/content/cases_total.csv'
@@ -8,7 +9,8 @@ def getJapan():
     timeDict = {}
     for i, row in enumerate(cr):
         if i>0:
-            timeDict[row[0]] = [row[0], row[1], None, None]
+            time = datetime.strptime(row[0], '%Y/%m/%d').strftime('%Y-%m-%d')
+            timeDict[row[0]] = [time, row[1], None, None]
 
     url = "https://www.mhlw.go.jp/content/severe_daily.csv"
     response = urllib.request.urlopen(url)
