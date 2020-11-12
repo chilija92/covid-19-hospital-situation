@@ -28,15 +28,15 @@ def getGermany():
     time = None
     for i, row in enumerate(cr):
         if i>0:
-            gesamt += int(row[5])
-            beatmet += int(row[6])
+            gesamt += int(row[3])
+            beatmet += int(row[4])
         if i==1:
-            time = row[4]
+            time = row[2]
 
 
     #compare
     tAlt = datetime.strptime(last_row[0], '%Y-%m-%d')
-    tNeu = datetime.strptime(time, '%Y-%m-%dT%H:%M:%S.%f%z')
+    tNeu = datetime.strptime(time, '%Y-%m-%dT%H:%M:%S%z')
     tNeu = datetime.strptime(tNeu.strftime('%Y-%m-%d'), '%Y-%m-%d')
     if tAlt.date() == tNeu.date():
         last_row[0] = tNeu.date()
