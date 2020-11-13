@@ -28,10 +28,11 @@ def getGermany():
     time = None
     for i, row in enumerate(cr):
         if i>0:
-            gesamt += int(row[3])
-            beatmet += int(row[4])
+            print(row)
+            gesamt += int(row[5])
+            beatmet += int(row[6])
         if i==1:
-            time = row[2]
+            time = row[4]
 
 
     #compare
